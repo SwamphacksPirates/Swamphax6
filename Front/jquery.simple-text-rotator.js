@@ -28,13 +28,13 @@
               el.animate({
                 textShadowBlur:20,
                 opacity: 0
-              }, 500 , function() {
+              }, 50 , function() {
                 index = $.inArray(el.text(), array)
                 if((index + 1) == array.length) index = -1
                 el.text(array[index + 1]).animate({
-                  textShadowBlur:0,
+                  textShadowBlur:20,
                   opacity: 1
-                }, 500 );
+                }, 50 );
               });
             break;
             
