@@ -1,0 +1,31 @@
+@-webkit-keyframes fade-in{
+from{
+    opacity:1;
+    top:0px;
+}
+to{
+    opacity:0;
+    top:-5px;
+}
+}
+.text-animated-one{
+display:inline;
+position:relative;
+top:0px;
+-webkit-animation:fade-in 1s infinite;
+
+}
+.text-animated-two{
+opacity:0;
+display:inline;
+position:relative;
+margin-left:-56px;
+-webkit-animation:fade-in 1s infinite;
+-webkit-animation-delay:0.5s;
+}
+
+.aggettivi{
+display:inline;
+width:100px;
+height:100px;
+}
