@@ -26,15 +26,15 @@
           switch (settings.animation) { 
             case 'dissolve':
               el.animate({
-                textShadowBlur:20,
+                textShadowBlur:0,
                 opacity: 0
-              }, 500 , function() {
+              }, 0 , function() {
                 index = $.inArray(el.text(), array)
                 if((index + 1) == array.length) index = -1
                 el.text(array[index + 1]).animate({
                   textShadowBlur:0,
                   opacity: 1
-                }, 500 );
+                }, 0 );
               });
             break;
             
