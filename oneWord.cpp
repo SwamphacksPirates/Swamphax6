@@ -35,6 +35,7 @@ int main(){
         cout << cin.get();
         mySleep(x);
     }
+}
 
 
 
