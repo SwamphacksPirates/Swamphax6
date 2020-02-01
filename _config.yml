@@ -1,5 +1,5 @@
----
+#---
 theme: jekyll-theme-merlot
----
-{% include About.txt %}
-{% include About.html %}
+#---
+#{% include About.txt %}
+#{% include About.html %}
