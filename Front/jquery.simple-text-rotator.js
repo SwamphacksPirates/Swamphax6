@@ -3,7 +3,7 @@
     var defaults = {
           animation: "dissolve",
           separator: "|",
-          speed: 400
+          speed: 1
       };
       
       $.fx.step.textShadowBlur = function(fx) {
@@ -26,15 +26,15 @@
           switch (settings.animation) { 
             case 'dissolve':
               el.animate({
-                textShadowBlur:0,
+                textShadowBlur:20,
                 opacity: 0
-              }, 0 , function() {
+              }, 500 , function() {
                 index = $.inArray(el.text(), array)
                 if((index + 1) == array.length) index = -1
                 el.text(array[index + 1]).animate({
                   textShadowBlur:0,
                   opacity: 1
-                }, 0 );
+                }, 500 );
               });
             break;
             
