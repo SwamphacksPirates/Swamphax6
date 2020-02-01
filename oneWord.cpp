@@ -1,16 +1,16 @@
 // this file outputs to std::out one word at a time from a text input to
 // std::in.
 //acts as a basic unix filter with "<" functionality
-#ifdef LINUX
-#include <unistd.h>
-#endif
-#ifdef WINDOWS
-#include <windows.h>
-#endif
+// #ifdef LINUX
+// #include <unistd.h>
+// #endif
+// #ifdef WINDOWS
+// #include <windows.h>
+// #endif
 
 
 #include <chrono>
-#include <thread>
+#include <ctime>
 #include <iostream>
 // #include <queue>
 #include <string>
@@ -20,22 +20,26 @@
 
 using namespace std;
 
-void mySleep(unsigned long long sleepMs)
-{
-    #ifdef LINUX
-    usleep(sleepMs * 1000);   // usleep takes sleep time in us (1 millionth of a second)
-    #endif
-    #ifdef WINDOWS
-    Sleep(sleepMs);
-    #endif
-}
+// void mySleep(unsigned long long sleepMs)
+// {
+//     #ifdef LINUX
+//     usleep(sleepMs * 1000);   // usleep takes sleep time in us (1 millionth of a second)
+//     #endif
+//     #ifdef WINDOWS
+//     Sleep(sleepMs);
+//     #endif
+// }
 int main(){
-    int x = 10;
-    while(cin.get()){
-        cout << cin.get();
-        mySleep(x);
+    // int x = 90000;
+    string word;
+    cout << "<span class=\"rotate\">";
+    while(!cin.eof()){
+        // mySleep(9000000000);
+        cin >> word;
+        if (cin.get() != EOF)
+        cout << word << "\0 ";
     }
-}
+    cout << "</span>";
 
 
 
