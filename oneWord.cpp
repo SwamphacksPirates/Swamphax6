@@ -37,7 +37,7 @@ int main(){
         // mySleep(9000000000);
         cin >> word;
         if (cin.get() != EOF)
-        cout << word << "\0 ";
+        cout << word << "|";
     }
     cout << "</span>";
 
