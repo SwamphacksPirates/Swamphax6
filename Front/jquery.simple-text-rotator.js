@@ -2,7 +2,7 @@
   
     var defaults = {
           animation: "dissolve",
-          separator: "/0",
+          separator: "|" || "," || "\0",
           speed: 2000
       };
       

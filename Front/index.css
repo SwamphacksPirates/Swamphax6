@@ -104,3 +104,129 @@
     -o-transform: rotateX(180deg) translate3d(0,0,100px) scale(0.85,0.85);
     transform: rotateX(180deg) translate3d(0,0,100px) scale(0.85,0.85);
   }
+
+  html {
+    height: 100%;
+  }
+  body {
+    background: #f4eedf;
+    padding: 0;
+    text-align: center;
+    font-family: 'open sans';
+    position: relative;
+    margin: 0;
+    height: 100%;
+    background-image: url(something.png)
+  }
+  
+  .wrapper {
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto; 
+    overflow: hidden;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+  h1, h2 {
+    width: 100%;
+    float: left;
+  }
+  h1 {
+    margin-top: 100px;
+    color: white;
+    margin-bottom: 5px;
+    font-size:70px;
+  }
+  h2 {
+    color: #999;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .pointer {
+    color: #9b59b6;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    margin-top: 15px;
+  }
+  pre {
+    margin: 80px auto;
+  }
+  pre code {
+    padding: 35px;
+    border-radius: 5px;
+    font-size: 15px;
+    background: rgba(0,0,0,0.1);
+    border: rgba(0,0,0,0.05) 5px solid;
+    max-width: 500px;
+  }
+
+
+  .main {
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .main h1 {
+    padding:150px 50px;
+    float: left;
+    width: 100%;
+    font-size: 45px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-weight: 100;
+    color: white;
+    margin: 0;
+  }
+
+  
+  .reload, .btn{
+    display: inline-block;
+    border: 4px solid #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background: rgba(255,255,255, 0.75);
+    display: inline-block;
+    line-height: 100%;
+    padding: 0.7em;
+    text-decoration: none;
+    opacity: 0.7;
+    color: #555;
+    width: 100px;
+    line-height: 140%;
+    font-size: 17px;
+    font-family: open sans;
+    font-weight: bold;
+  }
+  .reload:hover, .btn:hover {
+    background: white;
+  }
+  .btn {
+    width: 200px;
+  }
+  .btns {
+    width: 230px;
+    margin: 50px auto;
+  }
+  .credit {
+    text-align: center;
+    color: #999;
+    padding: 10px;
+    margin: 0 0 40px 0;
+    background: rgba(255,255,255,0.25);
+    float: left;
+    width: 100%;
+  }
+  .credit a {
+    color: #555;
+    text-decoration: none;
+    font-weight: bold;
+  }
