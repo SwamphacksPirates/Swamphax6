@@ -2,7 +2,7 @@
   
     var defaults = {
           animation: "dissolve",
-          separator: "|",
+          separator: "|" || "\0" || "," || 32,
           speed: 1
       };
       
@@ -28,13 +28,13 @@
               el.animate({
                 textShadowBlur:20,
                 opacity: 0
-              }, 50 , function() {
+              }, 0 , function() {
                 index = $.inArray(el.text(), array)
                 if((index + 1) == array.length) index = -1
                 el.text(array[index + 1]).animate({
                   textShadowBlur:20,
                   opacity: 1
-                }, 50 );
+                }, 0 );
               });
             break;
             
