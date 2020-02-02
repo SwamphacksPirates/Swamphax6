@@ -1,6 +1,5 @@
-# Quick Reading
-ever wanted to read *super* fast because you don't have any time?
-> we have a solution for you!
+# Reading Rotator
+## The most efficient way to read!
 
 # About
 
