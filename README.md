@@ -27,5 +27,5 @@
 # Challenges
   Choosing the correct tech stack was the most time consuming challenge. We wrote a C++11 program to convert large inputs of text to html format as a UNIX style filter that we injected into our static site manually. We decided on a static site using JavaScript on a Jekyll/MarkDown/GitHub pages site that processes into html. The major limitation with a static site is the difficulty to handle user input. Of course, the trade-off was mobile portability, cost-per-month (of 0), and browser ellegance. 
   
-  ## THANK YOU
-  Thanks for your consideration -- we've had a wonderful time this weekend:)
+## THANK YOU
+Thanks for your consideration -- we've had a wonderful time this weekend:)
