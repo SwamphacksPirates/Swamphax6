@@ -29,3 +29,16 @@
   
 ## THANK YOU
 Thanks for your consideration -- we've had a wonderful time this weekend:)
+## Made with love by:
+> Kevin Yepes - Cyber Criminology student Florida State University
+  "Making the world a better place- with bees!"
+  `//Did the Jekyll, C++, and some html/JS`
+---
+> Roberto Duharte - Digital Arts & Sciences student University of Florida
+  "Striving to create efficient software"
+  `//Did the JS/html, and managed Git repo`
+---
+> Erick La Paz - Criminal Justice student Florida International University
+  "Hello World!"
+  `//Did the Hexels design, first dev project!`
+---
